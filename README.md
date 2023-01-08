@@ -36,7 +36,7 @@
 
 4) API 명세서 만들기(스프레드시트든 Notion이든 상관x) 
  
-4) SpringBoot, JPA or Mybatis, Mysql 사용, DB ERD 설계한 엔티티로 CRUD REST API 만들기
+5) SpringBoot, JPA or Mybatis, Mysql 사용, DB ERD 설계한 엔티티로 CRUD REST API 만들기
 
 ```
 
