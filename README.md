@@ -33,8 +33,10 @@
 2) 해당 레포지토리 fork & PR 해보기 
  
 3) 자신이 만들 프로젝트 item 정하기 & DB ERD 설계해오기 
+
+4) API 명세서 만들기(스프레드시트든 Notion이든 상관x) 
  
-4) SpringBoot, JPA(ORM), Mysql 사용 간단한 CRUD REST API 만들기(DB ERD 설계한 엔티티로)
+4) SpringBoot, JPA or Mybatis, Mysql 사용, DB ERD 설계한 엔티티로 CRUD REST API 만들기
 
 ```
 
