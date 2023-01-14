@@ -1,5 +1,4 @@
-- 2주차 (20220-10-09): PART2-6장 객체지향 프로그래밍
-- 2주차 (20220-10-16): PART2-7장 알고리즘의 빅 오 분석법 
+- erd        : https://www.erdcloud.com/d/KeuBBErLkggY6kfKG
+- API 명세서 : https://docs.google.com/spreadsheets/d/1fTIWcbuxU-xtftxc7pVbGo4eLdu0GnWNc1UD1-L2hX0/edit?usp=sharing
 
-fork, PR 연습
 
