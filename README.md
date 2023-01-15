@@ -60,7 +60,7 @@
 1) 자신이 만들 프로젝트 git Repository로 만들고 README.md 정리 
 README.MD 내용은 서비스 기획의도, 서비스 지향하는 바, ERD, API 명세서 등을 작성, 검색 참고
 
-2) 설계한 ERD, API 명세서 대로 개발진행하기 
+2) 자신만의 WBS 표 만들고 설계한 ERD, API 명세서대로 개발진행하기 
  
 3) 개발 진행사항 및 이슈사항 정리 - git or 개인 블로그 or Notion 등에 정리할 수 있도록!
 
