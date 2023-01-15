@@ -67,6 +67,7 @@ README.MD 내용은 서비스 기획의도, 서비스 지향하는 바, ERD, API
 4) JPA, JDBC 등 본인이 사용할 DB접근 기술 공부해오고 정리
 
 ```
+* 정리 - https://www.notion.so/2week-e0ecadeebc1944d4bd5062bf483f1ef6
 
  <br>
  
