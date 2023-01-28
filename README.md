@@ -17,7 +17,7 @@
 # 📅 스터디 일정
 
 <details>
-<summary>1주차(01/07)</summary>
+<summary>OT(01/07)</summary>
 <div markdown="1">
 
 * 자기소개 시간
@@ -48,7 +48,7 @@
 </details>
 
 <details>
-<summary>2주차(01/14)</summary>
+<summary>1주차(01/14)</summary>
 <div markdown="1">
 
 * 프로젝트 기술스택 점검
@@ -74,6 +74,31 @@ README.MD 내용은 서비스 기획의도, 서비스 지향하는 바, ERD, API
 </div>
 </details>
 
+<details>
+<summary>2주차(01/28)</summary>
+<div markdown="1">
+
+* JPA 4가지 이슈 정리
+* Junut5 테스트 방식
+* paging 처리 및 동적조건 처리(querydsl) 
+* 정리 - https://rain-tank-b79.notion.site/2week-582106e5292b45b2810706d4f00c069d
+
+
+* 과제 
+``` 
+1) JPA 연관관계 단방향 매핑 구현, ex) board - comments 
+
+2) Junit5 테스트코드 구현 (Unit 테스트로 Service 테스트만, Mockito 사용)
+ 
+챌린지) paging 조회 내 검색조건 처리 구현 (Mybatis 동적태그 or JPA queydsl)
+
+```
+
+
+ <br>
+ 
+</div>
+</details>
 
 <br>
 
