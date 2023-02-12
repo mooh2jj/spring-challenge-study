@@ -1,7 +1,8 @@
+- 깃 허브 주소 : https://github.com/alexgim961101/ski-sharing
 - erd        : https://www.erdcloud.com/d/KeuBBErLkggY6kfKG
 - API 명세서 : https://docs.google.com/spreadsheets/d/1fTIWcbuxU-xtftxc7pVbGo4eLdu0GnWNc1UD1-L2hX0/edit?usp=sharing
 
-- 1주차 생각거리 정리
+- 생각거리 정리
 1. 자바 VS 모던 자바
 큰 차이점의 함수형 프로그래밍이 모던자바에서 가능해졌다는 것!
 여기서 함수형 프로그래밍이란?
