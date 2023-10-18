@@ -3,6 +3,7 @@ package com.example.springstudy.domain.coupon.dto.request;
 import com.example.springstudy.domain.coupon.entity.Coupon;
 import com.example.springstudy.domain.coupon.entity.CouponStatus;
 import com.example.springstudy.domain.coupon.entity.CouponType;
+import lombok.Builder;
 import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;
@@ -24,6 +25,16 @@ public class CouponCreateRequestDto {
     // 유효 기간
     private LocalDate startDate;
     private LocalDate endDate;
+
+    @Builder
+    public CouponCreateRequestDto(String name, String code, CouponType type, CouponStatus status, LocalDate startDate, LocalDate endDate) {
+        this.name = name;
+        this.code = code;
+        this.type = type;
+        this.status = status;
+        this.startDate = startDate;
+        this.endDate = endDate;
+    }
 
     public Coupon toEntity() {
         return Coupon.builder()
