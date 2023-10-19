@@ -3,15 +3,13 @@ package com.example.springstudy.domain.coupon.dto.request;
 import com.example.springstudy.domain.coupon.entity.Coupon;
 import com.example.springstudy.domain.coupon.entity.CouponStatus;
 import com.example.springstudy.domain.coupon.entity.CouponType;
-import lombok.Builder;
-import lombok.Getter;
-import lombok.Setter;
-import lombok.ToString;
+import lombok.*;
 
 import java.time.LocalDate;
 
 @Getter
 @Setter
+@NoArgsConstructor
 @ToString
 public class CouponCreateRequestDto {
 
