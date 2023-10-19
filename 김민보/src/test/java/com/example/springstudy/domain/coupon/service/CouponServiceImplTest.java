@@ -16,6 +16,8 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.ActiveProfiles;
 
 import java.time.LocalDate;
+import java.util.List;
+
 import static org.assertj.core.api.Assertions.assertThat;
 
 @SpringBootTest
@@ -34,15 +36,15 @@ class CouponServiceImplTest {
     @BeforeEach
     void setUp() {
 
-        coupon1 = Coupon.builder()
-                    .id(1L)
-                    .name("쿠폰1")
-                    .code("코드1")
-                    .type(CouponType.POINT)
-                    .status(CouponStatus.PUBLIC)
-                    .startDate(LocalDate.of(2023, 10, 18))
-                    .endDate(LocalDate.of(2023, 10, 20))
-                    .build();
+//        coupon1 = Coupon.builder()
+//                    .id(1L)
+//                    .name("쿠폰1")
+//                    .code("코드1")
+//                    .type(CouponType.POINT)
+//                    .status(CouponStatus.PUBLIC)
+//                    .startDate(LocalDate.of(2023, 10, 18))
+//                    .endDate(LocalDate.of(2023, 10, 20))
+//                    .build();
     }
 
     @AfterEach
@@ -69,5 +71,17 @@ class CouponServiceImplTest {
         // then
         assertThat(createdCoupon.getId()).isEqualTo(1L);
         assertThat(createdCoupon.getName()).isEqualTo("쿠폰1");
+    }
+
+    @Test
+    @DisplayName("쿠폰 리스트 테스트")
+    public void getCouponsTest() {
+        // given
+
+        // when
+        List<Coupon> coupons = couponRepository.findAll();
+
+        // then
+        assertThat(coupons).isNotEmpty();
     }
 }
