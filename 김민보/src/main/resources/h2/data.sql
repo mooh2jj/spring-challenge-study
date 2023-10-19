@@ -1,0 +1,3 @@
+INSERT INTO coupon (id, name, code, type, status, start_date, end_date, created_at, modified_at) values (1, '쿠폰이름1', '코드1', 'DISCOUNT', 'PUBLIC', '2023-10-18', '2023-10-18', '2023-10-20 00:00:00', '2023-10-22 00:00:00');
+INSERT INTO coupon (id, name, code, type, status, start_date, end_date, created_at, modified_at) values (2, '쿠폰이름2', '코드2', 'DISCOUNT', 'PUBLIC', '2023-10-18', '2023-10-18', '2023-10-20 00:00:00', '2023-10-22 00:00:00');
+INSERT INTO coupon (id, name, code, type, status, start_date, end_date, created_at, modified_at) values (3, '쿠폰이름3', '코드3', 'DISCOUNT', 'PUBLIC', '2023-10-18', '2023-10-18', '2023-10-20 00:00:00', '2023-10-22 00:00:00');
