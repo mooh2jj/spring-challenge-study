@@ -10,7 +10,6 @@ import java.time.LocalDate;
 @Entity
 @NoArgsConstructor(access = AccessLevel.PROTECTED)
 @Table(name = "coupon")
-@ToString(exclude = {"couponRecordList"})
 public class Coupon extends BaseTimeEntity {
 
     @Id
