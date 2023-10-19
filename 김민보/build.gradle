@@ -39,6 +39,10 @@ dependencies {
     implementation 'com.github.gavlyukovskiy:p6spy-spring-boot-starter:1.8.0'
 }
 
+bootJar {
+    duplicatesStrategy = 'exclude'
+}
+
 jar {
     enabled = false
 }
