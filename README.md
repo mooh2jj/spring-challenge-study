@@ -100,6 +100,27 @@ README.MD 내용은 서비스 기획의도, 서비스 지향하는 바, ERD, API
 </div>
 </details>
 
+<details>
+<summary>3주차(10/22)</summary>
+<div markdown="1">
+
+* Page 처리 -> Pageable 객체 사용, 페이징 커스터마이징
+* @Query, Querydsl 로 동적쿼리 사용하기
+* reqeust Dto 내 validation -> exception
+* ExceptionHandler 커스터마이징 (create dto)
+ 
+
+* 과제 
+```
+엔티티 API 미션으로 JPA N+1 이슈 해결 방식 처리 학습 -> fetch batch-size 활용하기
+```
+
+
+ <br>
+ 
+</div>
+</details>
+
 <br>
 
 # 🎃 주의사항
