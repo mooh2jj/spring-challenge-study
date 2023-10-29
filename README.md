@@ -101,7 +101,7 @@ README.MD 내용은 서비스 기획의도, 서비스 지향하는 바, ERD, API
 </details>
 
 <details>
-<summary>3주차(10/22)</summary>
+<summary>3주차(10/21)</summary>
 <div markdown="1">
 
 * Page 처리 -> Pageable 객체 사용, 페이징 커스터마이징
@@ -120,6 +120,21 @@ README.MD 내용은 서비스 기획의도, 서비스 지향하는 바, ERD, API
  
 </div>
 </details>
+
+<details>
+<summary>4주차(10/28)</summary>
+<div markdown="1">
+
+* 웹개발 인증처리 기술(세션, 쿠키, 토큰)
+* 토큰: jwt 기술 이해, Spring Security 적용
+* Spring Security config 소스 이해
+* Spring Securiy + jwt 로 인증/인가 코드 구현
+ 
+
+* 과제 
+```
+Spring Securiy + jwt 로 인증/인가 소스 본인 프로젝트 에 적용하기
+```
 
 <br>
 
