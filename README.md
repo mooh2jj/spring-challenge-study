@@ -1,4 +1,4 @@
-# spring-project-challenge-study
+# spring-challenge-study
 
 스프링 프로젝트 챌린지 스터디 레포지토리입니다.
 
