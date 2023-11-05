@@ -138,6 +138,26 @@ Spring Securiy + jwt 로 인증/인가 소스 본인 프로젝트 에 적용하�
 
 <br>
 
+</div>
+</details>
+
+<details>
+<summary>5주차(11/05)</summary>
+<div markdown="1">
+
+* 3rd party 라이브러리 대표적 기술 구현 설명
+* 파일업로드 -> AWS s3 저장소 로 구현 및 실습
+* sms -> coolsms 서비스로 핸드폰 인증 코드 -> 메시지 발행
+* excel -> 업로드/ 다운로드 시 Apach POI 라이브러리 이용 -> workbook, sheet, cell, row 객체 설명
+ 
+
+* 과제 
+```
+파일업로드 S3, sms, excel 구현 코드 본인 프로젝트에 적용하기
+```
+
+<br>
+
 # 🎃 주의사항
 
 1. 발표 내용에 대한 리뷰, 질문이 너무 날카로워 해당 발표자에 대한 강한 `감정적인 언행은 주의`해주세요 😫!
