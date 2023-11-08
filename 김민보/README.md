@@ -1,11 +1,19 @@
-## 1주차
+일정 : 11/04(OT), 11/11 ~ 12/30(8주)
 
-- 프로젝트 환경설정
-- 쿠폰 api 구현 https://github.com/minbo2002/spring-challenge-study/tree/main/1%EC%A3%BC%EC%B0%A8
+## OT (11/04)
 
----
+1. ~~사용 툴 설치 및 이해하기~~
+* IntelliJ(얼티메이트 버전 추천-플러그인 사용 가능)
+* MySQL8.0, DB 접속 HediSQL or workbench
+* e2e 테스트용 postman
+* git/github git bash 설치
 
-## 2주차
-- 페이징 커스터마이징
-- 유효성 검사 Junit5 테스트
-- 쿠폰 발급 api 구현 https://github.com/minbo2002/spring-challenge-study/tree/main/2%EC%A3%BC%EC%B0%A8
+2. ~~해당 레포지토리 fork & PR 해보기~~
+
+
+3. ~~ERD_Cloud 프로그램으로 Entity 설계 (최소 N:1연관 관계 컬렉션 엔티티도 같이 설계)~~
+   https://www.erdcloud.com/d/dvnN3PRExRjJfpWyq
+
+
+4. ~~SpringBoot, JPA, Mysql 사용, DB ERD 설계한 엔티티로 CRUD REST API 구현하기~~
+   https://github.com/minbo2002/react-challenge-study-backend2
