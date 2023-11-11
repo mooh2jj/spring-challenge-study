@@ -1,4 +1,4 @@
-# spring-project-challenge-study
+# spring-challenge-study
 
 스프링 프로젝트 챌린지 스터디 레포지토리입니다.
 
@@ -46,10 +46,10 @@
 ```
 
 - 환경셋팅 : https://www.notion.so/bb4d80cb1a094696b8ff27f4cd52bb00
-
- <br>
+- 기존자바정리 : https://www.notion.so/01f2f7d8a1d8453c84acdf47baca5d9e?pvs=4
  
 </div>
+</details>
 
 <br>
 
