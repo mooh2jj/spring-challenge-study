@@ -42,7 +42,6 @@
 * 조회/상세조회
 * 수정
 * 삭제
-
 ```
 
 - 환경셋팅 : https://www.notion.so/bb4d80cb1a094696b8ff27f4cd52bb00
@@ -67,7 +66,6 @@
 3) @OneToMany 실습 복습
 4) Dto 매핑을 잘해야되는 이유 -> Hint) N+1, lazy loading
 5) N+1 을 해결하는 방식에 fetch join 외 다른방법 서치하기
-
 ```
 
 - 노션정리 : https://www.notion.so/1week-66748cc6137b4d3f891107190fbdd691?pvs=4
