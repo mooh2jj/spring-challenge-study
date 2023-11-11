@@ -51,6 +51,30 @@
 </div>
 </details>
 
+<details>
+<summary>1week(11/11)</summary>
+<div markdown="1">
+
+- 1달간 진행할 스프리부트 도식도 설명(판서)
+- 자바 Collections 구조 실습 -> Enum, RequestDto 내 파라미터 설명
+- DB Table 과 JPA 엔티티 와의 매핑 도식도 => ERD
+- JPA 엔티티 중 1:N 연관관계의 Collection 필드 조회오기 실습 -> @OneToMany , Dto 매핑
+
+미션
+```
+1) ERD cloud 프로그램을 통해 ERD 추가하기 => User, Category
+2) 단톡방에 올린 React 화면단을 보고 REST API 명세서 만들기 
+3) @OneToMany 실습 복습
+4) Dto 매핑을 잘해야되는 이유 -> Hint) N+1, lazy loading
+5) N+1 을 해결하는 방식에 fetch join 외 다른방법 서치하기
+
+```
+
+- 노션정리 : https://www.notion.so/1week-66748cc6137b4d3f891107190fbdd691?pvs=4
+ 
+</div>
+</details>
+
 <br>
 
 # 🎃 주의사항
