@@ -100,6 +100,62 @@ README.MD 내용은 서비스 기획의도, 서비스 지향하는 바, ERD, API
 </div>
 </details>
 
+<details>
+<summary>3주차(10/21)</summary>
+<div markdown="1">
+
+* Page 처리 -> Pageable 객체 사용, 페이징 커스터마이징
+* @Query, Querydsl 로 동적쿼리 사용하기
+* reqeust Dto 내 validation -> exception
+* ExceptionHandler 커스터마이징 (create dto)
+ 
+
+* 과제 
+```
+엔티티 API 미션으로 JPA N+1 이슈 해결 방식 처리 학습 -> fetch batch-size 활용하기
+```
+
+
+ <br>
+ 
+</div>
+</details>
+
+<details>
+<summary>4주차(10/28)</summary>
+<div markdown="1">
+
+* 웹개발 인증처리 기술(세션, 쿠키, 토큰)
+* 토큰: jwt 기술 이해, Spring Security 적용
+* Spring Security config 소스 이해
+* Spring Securiy + jwt 로 인증/인가 코드 구현
+ 
+
+* 과제 
+```
+Spring Securiy + jwt 로 인증/인가 소스 본인 프로젝트 에 적용하기
+```
+
+<br>
+
+</div>
+</details>
+
+<details>
+<summary>5주차(11/05)</summary>
+<div markdown="1">
+
+* 3rd party 라이브러리 대표적 기술 구현 설명
+* 파일업로드 -> AWS s3 저장소 로 구현 및 실습
+* sms -> coolsms 서비스로 핸드폰 인증 코드 -> 메시지 발행
+* excel -> 업로드/ 다운로드 시 Apach POI 라이브러리 이용 -> workbook, sheet, cell, row 객체 설명
+ 
+
+* 과제 
+```
+파일업로드 S3, sms, excel 구현 코드 본인 프로젝트에 적용하기
+```
+
 <br>
 
 # 🎃 주의사항
