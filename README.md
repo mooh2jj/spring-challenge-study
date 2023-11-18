@@ -91,7 +91,7 @@
 미션
 ```
 1) 1week 미션 계속 진행 -> Querydsl 로 진행
-2) categories를 기반으로 board list 조회 api -> /api/category/{categoryId}/board/list 만들기기
+2) categories를 기반으로 board list 조회 api -> /api/category/{categoryId}/board/list 만들기
 ```
 - querydsl 설정법 : https://velog.io/@mooh2jj/QueryDSL을-사용하는-이유
 - 노션정리 : https://www.notion.so/2week-1fbb850f31ee41358eac81c79241d9fb?pvs=4
