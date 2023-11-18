@@ -76,7 +76,7 @@
 </details>
 
 <details>
-<summary>1week(11/18)</summary>
+<summary>2week(11/18)</summary>
 <div markdown="1">
 
 - ERD 설계를 위한 DB 내용 파악
