@@ -73,6 +73,33 @@
 </div>
 </details>
 
+</details>
+
+<details>
+<summary>1week(11/18)</summary>
+<div markdown="1">
+
+- ERD 설계를 위한 DB 내용 파악
+   - index -> pk, unique, fk -> 비식별관계 vs 식별관계
+   - 관계차수 1:N, N:N 처리 -> 중간 매핑 테이블(or 브릿지)
+   - IE 표기법 읽는 법
+   - null 처리 DB에도 이해 -> ex. count(*) vs count(col)
+- ERD_cloud 프로그램을 통해 직접 설계 -> JPA 엔티티 설계 -> 실제 DB DDL 구현
+- Transation ACID 특성 -> @Transational 의미
+- DB Lock 처리 설명
+
+미션
+```
+1) 1week 미션 계속 진행 -> Querydsl 로 진행
+2) categories를 기반으로 board list 조회 api -> /api/category/{categoryId}/board/list 만들기기
+```
+- querydsl 설정법 : https://velog.io/@mooh2jj/QueryDSL을-사용하는-이유
+- 노션정리 : https://www.notion.so/2week-1fbb850f31ee41358eac81c79241d9fb?pvs=4
+ 
+</div>
+</details>
+
+
 <br>
 
 # 🎃 주의사항
