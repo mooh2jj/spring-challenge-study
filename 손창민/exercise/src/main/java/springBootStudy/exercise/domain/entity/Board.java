@@ -3,12 +3,16 @@ package springBootStudy.exercise.domain.entity;
 import lombok.*;
 import org.hibernate.annotations.ColumnDefault;
 import org.hibernate.annotations.DynamicInsert;
+import org.hibernate.annotations.Fetch;
+import org.hibernate.annotations.FetchMode;
 import springBootStudy.exercise.domain.common.BaseEntity;
 import springBootStudy.exercise.domain.common.StatusCode;
 
 import javax.persistence.*;
 import java.util.ArrayList;
+import java.util.LinkedHashSet;
 import java.util.List;
+import java.util.Set;
 
 @Getter
 @Entity(name = "Boards")
@@ -36,11 +40,13 @@ public class Board extends BaseEntity {
     @JoinColumn(name = "user_id")
     private User user;
 
-    @OneToMany(mappedBy = "board", cascade = CascadeType.ALL)
-    private List<BoardCategory> boardCategories = new ArrayList<>();
+    @Fetch(FetchMode.SUBSELECT)
+    @OneToMany(mappedBy = "board", cascade = CascadeType.ALL, fetch = FetchType.EAGER)
+    private Set<BoardCategory> boardCategories = new LinkedHashSet<>();
 
-    @OneToMany(mappedBy = "board", cascade = CascadeType.ALL)
-    private List<Comment> comments = new ArrayList<>();
+    @Fetch(FetchMode.SUBSELECT)
+    @OneToMany(mappedBy = "board", cascade = CascadeType.ALL, fetch = FetchType.EAGER)
+    private Set<Comment> comments = new LinkedHashSet<>();
 
     @Builder
     public Board(String korTitle, String engTitle, String description, Integer view, StatusCode status) {
@@ -49,5 +55,18 @@ public class Board extends BaseEntity {
         this.description = description;
         this.view = view;
         this.status = status;
+    }
+
+    public void addCategory(Category category){
+        boardCategories.add(
+                BoardCategory.builder()
+                        .board(this)
+                    .category(category)
+                    .build()
+        );
+    }
+
+    public void addComment(Comment comment){
+        comments.add(comment);
     }
 }
