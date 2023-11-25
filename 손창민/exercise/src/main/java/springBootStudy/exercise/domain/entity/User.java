@@ -32,7 +32,7 @@ public class User extends BaseEntity {
     @Enumerated(EnumType.STRING)
     private StatusCode status;
 
-    @OneToMany(mappedBy = "users", cascade = CascadeType.ALL)
+    @OneToMany(mappedBy = "user", cascade = CascadeType.ALL)
     private List<Comment> comments = new ArrayList<>();
 
     @Builder

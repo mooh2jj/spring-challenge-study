@@ -20,7 +20,7 @@ public class Category extends BaseEntity {
     @Column(length = 15, nullable = false)
     private CategoryType categoryName;
 
-    @OneToMany(mappedBy = "categories", cascade = CascadeType.ALL)
+    @OneToMany(mappedBy = "category", cascade = CascadeType.ALL)
     private List<BoardCategory> boardCategories = new ArrayList<>();
 
     @Builder
