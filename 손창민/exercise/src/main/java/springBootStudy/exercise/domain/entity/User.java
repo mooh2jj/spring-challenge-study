@@ -1,20 +1,20 @@
-package springBootStudy.exercise.entity;
+package springBootStudy.exercise.domain.entity;
 
 import lombok.*;
 import org.hibernate.annotations.DynamicInsert;
-import springBootStudy.exercise.entity.common.BaseEntity;
-import springBootStudy.exercise.entity.common.StatusCode;
+import springBootStudy.exercise.domain.common.BaseEntity;
+import springBootStudy.exercise.domain.common.StatusCode;
 
 import javax.persistence.*;
-import java.util.LinkedHashSet;
-import java.util.Set;
+import java.util.ArrayList;
+import java.util.List;
 
-@Entity
+@Entity(name = "Users")
 @Getter
 @DynamicInsert
 @NoArgsConstructor(access = AccessLevel.PROTECTED)
 @AllArgsConstructor
-public class Users extends BaseEntity {
+public class User extends BaseEntity {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
@@ -32,8 +32,11 @@ public class Users extends BaseEntity {
     @Enumerated(EnumType.STRING)
     private StatusCode status;
 
+    @OneToMany(mappedBy = "users", cascade = CascadeType.ALL)
+    private List<Comment> comments = new ArrayList<>();
+
     @Builder
-    public Users(String name, String email, String password, StatusCode status) {
+    public User(String name, String email, String password, StatusCode status) {
         this.name = name;
         this.email = email;
         this.password = password;

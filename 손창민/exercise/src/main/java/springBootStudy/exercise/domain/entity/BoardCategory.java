@@ -1,15 +1,15 @@
-package springBootStudy.exercise.entity;
+package springBootStudy.exercise.domain.entity;
 
 import lombok.*;
-import springBootStudy.exercise.entity.common.BaseEntity;
+import springBootStudy.exercise.domain.common.BaseEntity;
 
 import javax.persistence.*;
 
-@Entity
+@Entity(name ="BoardCategories")
 @Getter
 @NoArgsConstructor(access = AccessLevel.PROTECTED)
 @AllArgsConstructor
-public class BoardCategories extends BaseEntity {
+public class BoardCategory extends BaseEntity {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -17,14 +17,14 @@ public class BoardCategories extends BaseEntity {
 
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "board_id")
-    private Boards board;
+    private Board board;
 
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "category_id")
-    private Categories category;
+    private Category category;
 
     @Builder
-    public BoardCategories(Boards board, Categories category) {
+    public BoardCategory(Board board, Category category) {
         this.board = board;
         this.category = category;
     }

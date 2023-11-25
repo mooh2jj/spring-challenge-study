@@ -1,4 +1,4 @@
-package springBootStudy.exercise.entity.common;
+package springBootStudy.exercise.domain.common;
 
 import lombok.Getter;
 import org.hibernate.annotations.DynamicInsert;

@@ -1,21 +1,21 @@
-package springBootStudy.exercise.entity;
+package springBootStudy.exercise.domain.entity;
 
 import lombok.*;
 import org.hibernate.annotations.ColumnDefault;
 import org.hibernate.annotations.DynamicInsert;
-import springBootStudy.exercise.entity.common.BaseEntity;
-import springBootStudy.exercise.entity.common.StatusCode;
+import springBootStudy.exercise.domain.common.BaseEntity;
+import springBootStudy.exercise.domain.common.StatusCode;
 
 import javax.persistence.*;
-import java.util.LinkedHashSet;
-import java.util.Set;
+import java.util.ArrayList;
+import java.util.List;
 
 @Getter
-@Entity
+@Entity(name = "Boards")
 @DynamicInsert
 @NoArgsConstructor(access = AccessLevel.PROTECTED)
 @AllArgsConstructor
-public class Boards extends BaseEntity {
+public class Board extends BaseEntity {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
@@ -34,10 +34,16 @@ public class Boards extends BaseEntity {
 
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "user_id")
-    private Users users;
+    private User user;
+
+    @OneToMany(mappedBy = "boards", cascade = CascadeType.ALL)
+    private List<BoardCategory> boardCategories = new ArrayList<>();
+
+    @OneToMany(mappedBy = "boards", cascade = CascadeType.ALL)
+    private List<Comment> comments = new ArrayList<>();
 
     @Builder
-    public Boards(String korTitle, String engTitle, String description, Integer view, StatusCode status) {
+    public Board(String korTitle, String engTitle, String description, Integer view, StatusCode status) {
         this.korTitle = korTitle;
         this.engTitle = engTitle;
         this.description = description;
