@@ -99,6 +99,31 @@
 </div>
 </details>
 
+<details>
+<summary>3week(11/25)</summary>
+<div markdown="1">
+
+- JPA 5가지 포인트 정리
+- DB, SQL 활용 -> 중복 확인, 월별 카운트 집계
+  - page =~= offset
+  - size =~= limit
+- 페이징 -> @PageableDefault [page, size] -> Pageable 객체 & Page<T> 객체 
+- search 필터 -> RequestDto -> Querydsl JPAQueryFactory 내 where 조건절에 삽입
+- Collecations 필드 fetch join 사용시 오류사항
+  - MultipleBagFetchException
+  - firstResult/maxResults specified with collection fetch; applying in memory
+
+
+미션
+```
+1) Collections 필드 오류사항 경험하기 fetch join 걸면? 그런다음 Paging이 된 상태면?
+2) tags를 기반으로 board list 조회 api -> /api/category/{tagId}/board/list 만들기
+```
+
+- 노션정리 : https://www.notion.so/3week-0bbe51fbaa4b49e98b93da28385a6557?pvs=4
+ 
+</div>
+</details>
 
 <br>
 
