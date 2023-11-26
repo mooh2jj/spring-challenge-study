@@ -1,2 +1,6 @@
-- 1주차 
+- 1주차   
+  - Dto 매핑을 잘해야하는 이유
+    - [지연로딩과 즉시로딩](https://mangrove-football-df0.notion.site/0a551e23bfea4239b4cc970fef13bb7d?pvs=4)
+    - [N+1 문제와 해결 방법](https://mangrove-football-df0.notion.site/N-1-08c094be65bc400aa1d419ef7b2d33a7?pvs=4)
+  - [REST API 명세서](https://mangrove-football-df0.notion.site/API-6df8caca2d7f4e19b31b6a682184d4d3?pvs=4)
 - 2주차
