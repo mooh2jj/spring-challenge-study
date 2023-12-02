@@ -125,6 +125,27 @@
 </div>
 </details>
 
+<details>
+<summary>4week(12/02)</summary>
+<div markdown="1">
+
+* 웹개발 인증처리 기술(세션, 쿠키, 토큰)
+* 토큰: jwt 기술 이해, Spring Security 적용
+* Spring Security config 소스 이해
+* Spring Securiy + jwt 로 인증/인가 코드 구현
+ 
+
+* 과제 
+```
+Spring Securiy + jwt 로 인증/인가 소스 본인 프로젝트 에 적용하기
+```
+- 노션정리 - https://www.notion.so/7week-Secuirty-JWT-31742d1b28f84f05a62f3a6a6e840533?pvs=4
+
+<br>
+
+</div>
+</details>
+
 <br>
 
 # 🎃 주의사항
